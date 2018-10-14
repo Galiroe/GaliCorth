@@ -14,8 +14,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    jaugeage.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    jaugeage.h
 
 FORMS    += mainwindow.ui
